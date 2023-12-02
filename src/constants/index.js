@@ -132,7 +132,7 @@ const experiences = [
     company_name: "Sain Informatix Pvt Ltd",
     icon: working,
     iconBg: "#E6DEDD",
-    date: "August 20212- September 2022",
+    date: "August 2022- September 2022",
     points: [
       "Developed a dynamic full-stack Django web app showcasing diverse cryptocurrencies.",
       "Designed a responsive layout to capture user information including name, email, age, and phone number.",

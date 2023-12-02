@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
-        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
+        className={`${styles.paddingX} absolute inset-0 top-[70px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
@@ -18,7 +18,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <spam className="text-[#915eff]">Aniket</spam>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-2 text-white-100 text-sm`}>
             Front-End Engineer specialized in the optimization of workflows
             <br className="sm:block hidden" /> throughout the business and into
             engineering to ensure workflow frameworks are in place and being
@@ -29,9 +29,9 @@ const Hero = () => {
 
       <ComputersCanvas />
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center ">
-        <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+      <div className="absolute xs:bottom-4 bottom-28 w-full flex justify-center items-center ">
+        <a href="#about" className="inset-0 z-40">
+          <div className="w-[18px] h-[45px] rounded-3xl border-2 border-secondary flex justify-center items-start ">
             <motion.div
               animate={{
                 y: [0, 24, 0],
@@ -41,7 +41,7 @@ const Hero = () => {
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className="w-3 h-3 rounded-full bg-secondary mb-1"
+              className="w-1 h-3 rounded-full bg-secondary mb-1"
             />
           </div>
         </a>
