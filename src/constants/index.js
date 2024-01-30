@@ -115,6 +115,19 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Web Development Intern",
+    company_name: "Dukandari",
+    icon: working,
+    iconBg: "#383E56",
+    date: "July 2023 - September 2023",
+    points: [
+      "Developed a user-friendly site using HTML, CSS, Bootstrap, and JavaScript.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
     title: "Front-End Developer Intern",
     company_name: "Sunrise Enterprises",
     icon: working,
@@ -138,19 +151,6 @@ const experiences = [
       "Designed a responsive layout to capture user information including name, email, age, and phone number.",
       "Enhanced user experience by implementing form validation and real-time feedback using JavaScript. ",
       "Applied Bootstrap framework for consistent styling and optimal display across devices.",
-    ],
-  },
-  {
-    title: "Web Development Intern",
-    company_name: "Smart Knower",
-    icon: working,
-    iconBg: "#383E56",
-    date: "January 2022 - July 2022",
-    points: [
-      "Developed a user-friendly site using HTML, CSS, Bootstrap, and JavaScript.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   // {
