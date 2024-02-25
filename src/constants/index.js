@@ -18,6 +18,7 @@ import {
   working,
   threejs,
   zairbnb,
+  projectmanagement,
   socialorbit,
   soundbeats,
   man,
@@ -280,6 +281,45 @@ const projects = [
     image: zairbnb,
     source_code_link: "https://github.com/ani0ket/airbnb-clone",
     live_link: "https://zairbnb-clone.vercel.app/",
+  },
+  {
+    name: "Project Management",
+    description:
+      " Manage projects effortlessly, track progress in real-time, and prioritize tasks with ease.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NodeJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Axios",
+        color: "green-text-gradient",
+      },
+    ],
+    image: projectmanagement,
+    source_code_link: "https://github.com/ani0ket/Project-Management",
+    // live_link: "https://zairbnb-clone.vercel.app/",
   },
 ];
 

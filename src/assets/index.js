@@ -34,6 +34,7 @@ import tripguide from "./tripguide.png";
 import zairbnb from "./zairbnb.png";
 import soundbeats from "./soundbeats.png";
 import socialorbit from "./socialorbit.png";
+import projectmanagement from "./projectmanagement.png";
 
 import man from "./man.png";
 import woman from "./woman.png";
@@ -71,6 +72,7 @@ export {
   zairbnb,
   soundbeats,
   socialorbit,
+  projectmanagement,
   live,
   man,
   woman,
